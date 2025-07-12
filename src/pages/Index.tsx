@@ -10,7 +10,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <DashboardHeader />
       
-      <div className="p-6 space-y-6">
+      <div className="p-8 space-y-8 max-w-7xl mx-auto">
         {/* Top Row - System Overview and Quick Metrics */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-1">
@@ -33,9 +33,9 @@ const Index = () => {
         </div>
       </div>
 
-      {/* Scanning Animation Overlay */}
+      {/* Subtle Animation Overlay */}
       <div className="fixed inset-0 pointer-events-none">
-        <div className="absolute inset-0 bg-gradient-scan animate-neural-scan opacity-10" />
+        <div className="absolute inset-0 bg-gradient-scan animate-neural-scan opacity-5" />
       </div>
     </div>
   );
