@@ -98,7 +98,7 @@ The interface follows OpenAI's clean design principles:
 
 ```bash
 # Clone the repository
-git clone <your-repository-url>
+git clone topherchris420/signalvault-resonance-mapper
 cd signalvault
 
 # Install dependencies
