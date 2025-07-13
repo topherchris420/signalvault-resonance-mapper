@@ -1,8 +1,8 @@
 # SignalVault - Organizational Linguistic Intelligence
 
-[![Lovable](https://img.shields.io/badge/Built%20with-Lovable-ff69b4.svg)](https://lovable.dev)
+[![Vers3Dynamics](https://img.shields.io/badge/Built%20with-Lovable-ff69b4.svg)](https://vers3dynamics.com)
 
-SignalVault is an enterprise-grade AI system designed to scan, interpret, and visualize hidden patterns of symbolic fragmentation, tone distortion, and linguistic entropy within high-velocity organizations. The system processes ambient communication data to generate resonance heatmaps that reflect the semantic coherence and emotional stability of organizational units over time.
+SignalVault2.0 is an enterprise-grade AI system designed to scan, interpret, and visualize hidden patterns of symbolic fragmentation, tone distortion, and linguistic entropy within high-velocity organizations. The system processes ambient communication data to generate resonance heatmaps that reflect the semantic coherence and emotional stability of organizational units over time.
 
 ## 🎯 Purpose
 
