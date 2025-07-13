@@ -10,9 +10,9 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <DashboardHeader />
       
-      <div className="p-8 space-y-8 max-w-7xl mx-auto">
+      <div className="p-4 md:p-6 lg:p-8 space-y-4 md:space-y-6 lg:space-y-8 max-w-7xl mx-auto">
         {/* Top Row - System Overview and Quick Metrics */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6">
           <div className="lg:col-span-1">
             <SystemOverview />
           </div>
@@ -22,13 +22,13 @@ const Index = () => {
         </div>
 
         {/* Middle Row - Core Analysis Engines */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
           <CoherenceEngine />
           <EntropyMonitor />
         </div>
 
         {/* Bottom Row - Warning System */}
-        <div className="grid grid-cols-1 gap-6">
+        <div className="grid grid-cols-1 gap-4 md:gap-6">
           <WarningSystem />
         </div>
       </div>

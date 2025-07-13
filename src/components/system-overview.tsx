@@ -65,7 +65,7 @@ const SystemOverview = () => {
         <p className="text-sm text-muted-foreground">Real-time operational metrics and security status</p>
       </div>
 
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
         {systemMetrics.map((metric, index) => (
           <div 
             key={metric.label}
