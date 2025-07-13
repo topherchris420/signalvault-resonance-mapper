@@ -4,6 +4,10 @@ import CoherenceEngine from "@/components/coherence-engine";
 import EntropyMonitor from "@/components/entropy-monitor";
 import ResonanceHeatmap from "@/components/resonance-heatmap";
 import WarningSystem from "@/components/warning-system";
+import TemporalDriftTracker from "@/components/temporal-drift-tracker";
+import MissionResonanceIndex from "@/components/mission-resonance-index";
+import NarrativeStabilizationToolkit from "@/components/narrative-stabilization-toolkit";
+import IntegrationManager from "@/components/integration-manager";
 
 const Index = () => {
   return (
@@ -25,6 +29,18 @@ const Index = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
           <CoherenceEngine />
           <EntropyMonitor />
+        </div>
+
+        {/* Advanced Analysis Row */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
+          <TemporalDriftTracker />
+          <MissionResonanceIndex />
+        </div>
+
+        {/* Management Tools Row */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
+          <NarrativeStabilizationToolkit />
+          <IntegrationManager />
         </div>
 
         {/* Bottom Row - Warning System */}
