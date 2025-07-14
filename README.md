@@ -160,10 +160,5 @@ This project is proprietary software developed for enterprise organizational int
 
 ## 🔗 Links
 
-- **Live Demo**: [View on Lovable](https://be558b38-17ae-4d35-8a0d-5847aa053062.lovableproject.com)
-- **Documentation**: [Lovable Docs](https://docs.lovable.dev/)
-- **Support**: [Lovable Community](https://discord.com/channels/1119885301872070706/1280461670979993613)
-
----
-
-*SignalVault: The missing sense for detecting cultural turbulence—early, clearly, and without blame.*
+- **Live Demo**: [View on Vers3Dynamics](https://vers3dynamics.com)
+- **Documentation**: [Docs](https://vers3dynamics.com/speed-of-thought)
