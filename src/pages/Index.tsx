@@ -8,6 +8,7 @@ import TemporalDriftTracker from "@/components/temporal-drift-tracker";
 import MissionResonanceIndex from "@/components/mission-resonance-index";
 import NarrativeStabilizationToolkit from "@/components/narrative-stabilization-toolkit";
 import IntegrationManager from "@/components/integration-manager";
+import { BlankSlateInterface } from "@/components/blank-slate-interface";
 
 const Index = () => {
   return (
@@ -24,6 +25,9 @@ const Index = () => {
             <ResonanceHeatmap />
           </div>
         </div>
+
+        {/* Blank Slate Technology - Foundational Layer */}
+        <BlankSlateInterface />
 
         {/* Middle Row - Core Analysis Engines */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
